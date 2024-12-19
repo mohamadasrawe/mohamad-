@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الصور</title>
+		<link rel="icon" href="348278891_145622448495863_5614415534231209410_n.jpg">
+
+	<nav>
+	<ul>
+</ul>
+</nav>
+
+<head>
+    <meta charset="UTF-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شريط تنقل الجامعة</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* شريط التنقل الرئيسي */
+        nav {
+            background-color: #004080;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            position: relative;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #0066cc;
+            border-radius: 5px;
+        }
+
+        /* القائمة الفرعية */
+        .dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: white;
+            color: black;
+            min-width: 200px;
+            display: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .dropdown li {
+            margin: 0;
+        }
+
+        .dropdown li a {
+            color: #004080;
+            padding: 10px;
+            display: block;
+            text-align: right;
+        }
+
+        .dropdown li a:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* إظهار القائمة الفرعية عند التمرير */
+        nav ul li:hover .dropdown {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+	        <li><a href="index.html">الرئيسية</a>
+
+        <li><a href="#">عن جامعة الاستقلال</a>
+            <ul class="dropdown">
+                <li><a href="#">نبذة عن الجامعة</a></li>
+                <li><a href="#">مجلس الأمناء</a></li>
+                <li><a href="#">رئاسة الجامعة</a></li>
+                <li><a href="#">جوائز الجامعة وإنجازاتها</a></li>
+                <li><a href="#">عضويات الجامعة</a></li>
+                <li><a href="#">أخبار الجامعة</a></li>
+                <li><a href="#">إعلانات الجامعة</a></li>
+                <li><a href="#">تعليمات الجامعة</a></li>
+                <li><a href="#">جولة افتراضية في الجامعة</a></li>
+            </ul>
+        </li>
+        <li><a href="#">شؤون أكاديمية</a>
+            <ul class="dropdown">
+                <li><a href="#">البرامج الااكاديمية</a></li>
+                <li><a href="#">الكليات </a></li>
+                <li><a href="#">الجدول الدراسي</a></li>
+                <li><a href="#">التقويم الاكاديمي</a></li>              
+            </ul>
+        <li><a href="#">القبول والتسجيل</a>
+		
+            <ul class="dropdown">
+                <li><a href="#">عمادة القبول والتسجيل</a></li>
+                <li><a href="#">طلب القبول الالكترونة </a></li>
+                <li><a href="#">التعليمات </a></li>
+                <li><a href="#">النماذج</a></li>              
+				<li><a href="#">شروط القبول</a></li>              
+
+            </ul>
+        <li><a href="#">شؤون الطلبة</a>
+		
+            <ul class="dropdown">
+                <li><a href="#">عمادة شؤون الطلبة </a></li>
+                <li><a href="#">الحياة الجامعية </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#">النماذج</a></li>             
+
+            </ul>		
+
+        <li><a href="index3.html">البوابة الجامعية</a>
+
+    </ul>
+</nav>
+
+</body>
+	
+	
+	
+	
+</head>
+
+		
+		
+		
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .image-container {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .image-container p {
+            margin: 10px 0 0;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>معرض الصور</h1>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="https://alistiqlal.edu.ps/uploads/presidency/2.webp"  height=250px>
+			<p> الدكتور نايف جرّاد</p>
+            <p>نائب رئيس الجامعة للشؤون الأكاديمية والبحث العلمي</p>
+        </div>
+        <div class="image-container">
+            <img src="https://alistiqlal.edu.ps/uploads/presidency/3.webp" alt="صورة 2">
+            <p>الدكتور علي عيايدة</p>
+			<p>نائب الرئيس للشؤون الإدارية والمالية</p>
+        </div>
+        <div class="image-container">
+            <img src="https://alistiqlal.edu.ps/uploads/presidency/4.webp" alt="صورة 3">
+            <p>العميد زاهر الصباح</p>
+			<p> نائب الرئيس للشؤون العسكرية</p>
+        </div>
+        <div class="image-container">
+            <img src="https://alistiqlal.edu.ps/uploads/presidency/6.webp" alt="صورة 4">
+            <p>الدكتور اياد مسعود</p>
+	
+               <p> مساعد رئيس الجامعة للعلاقات الدولية والعامة والإعلام </p>
+        </div>
+    </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إضافة فيديو عبر رابط</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+        video {
+            border: 2px solid #555;
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>تشغيل فيديو باستخدام رابط</h1>
+    <p>هذا مثال على تشغيل فيديو عبر الإنترنت باستخدام HTML:</p>
+    <video controls>
+        <source src="https://www.youtube.com/watch?v=33iAKflDIGk" type="video/mp4">
+        <!-- رسالة للمستخدم إذا كان المتصفح لا يدعم الفيديو -->
+        متصفحك لا يدعم تشغيل الفيديو.
+    </video>
+</body>
+</html>
+
+</html>

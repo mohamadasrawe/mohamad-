@@ -1,0 +1,79 @@
+    h1{
+	background-color:#db3a0b ;
+	color:white
+ <style>
+        body {
+            display: flex; /* تفعيل flexbox */
+            justify-content: center; /* محاذاة النص أفقيًا */
+            align-items: center; /* محاذاة النص رأسيًا */
+            height: 100vh; /* ملء الصفحة */
+            margin: 0; /* إزالة الحواف الافتراضية */
+        }
+    </style>
+        }
+    
+	}
+
+
+
+
+main p {
+	
+    font-size: 1.1rem; 
+    margin-bottom: 20px; 
+    padding: 20Spx; 
+    background-color: #C6E7FF; 
+    border-left: 5px solid #FFF6E9; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+}
+}
+
+
+.content-image {
+    display: block; 
+    margin: 20px auto; 
+    width: 80%; 
+    max-width: 600px; 
+    border-radius: 10px; 
+    
+}
+
+
+footer {
+    background-color: #FF7F3E; 
+    color:black;
+    text-align: center; 
+    padding: 20px 0;
+    font-size: 1rem; 
+}
+
+footer i {
+    margin-left: 10px; 
+    color: red; 
+    font-size: 1.2rem; 
+}
+
+footer b {
+    margin-left: 30px; 
+    color: #7BD3EA; 
+    font-size: 1.2rem; 
+}
+
+
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem; 
+    }
+    
+    main {
+        padding: 15px; 
+    }
+    
+    .content-image {
+        width: 100%; 
+    }
+
+}
